@@ -7,13 +7,16 @@ public class TTC {
 	{
 		
 		
-		if(from[0] == "Leslie" && to[0] == "DonMills")
-		{
+		String[] Z1 = {"DonMills","Leslie"};
+		String[] Z2 = {"Sheppard","Finch"};
+		if(from[0] == Z1[1] && to[0] == Z1[0]) {
+			
 			return 2.5;
+			
 		}
-		if(from[0] == "Sheppard" && to[0] == "Finch")
-		{
-			return 3.0;
+		else if(from[0] == Z2[0] && to[0] == Z2[1]) {
+		
+			return 3.00;
 		}
 		
 		return 0;
