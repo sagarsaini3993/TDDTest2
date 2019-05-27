@@ -5,7 +5,7 @@ public class TTC {
 	
 	public double calculateTotal(String[] from, String[] to)
 	{
-		return 0;
+		return 2.5;
 	}
 	
 

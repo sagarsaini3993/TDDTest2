@@ -19,8 +19,8 @@ public class TTCTest {
 		TTC t = new TTC();
 		String[] from = {"Leslie"};
 		String[] to = {"DonMills"};
-		double output = t.calculateTotal(from, to);
-		assertEquals("$2.50", output);
+		double actualOutput = t.calculateTotal(from, to);
+		assertEquals("2.5", String.valueOf(actualOutput));
 		
 		
 	}
