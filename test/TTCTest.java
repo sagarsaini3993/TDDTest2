@@ -24,5 +24,16 @@ public class TTCTest {
 		
 		
 	}
+	
+	@Test
+	public void testZone2() {
+		TTC t = new TTC();
+		String[] from = {"Sheppard"};
+		String[] to = {"Finch"};
+		double actualOutput = t.calculateTotal(from, to);
+
+		assertEquals("$3.00", String.valueOf(actualOutput));
+
+	}
 
 }
