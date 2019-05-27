@@ -32,7 +32,7 @@ public class TTCTest {
 		String[] to = {"Finch"};
 		double actualOutput = t.calculateTotal(from, to);
 
-		assertEquals("$3.00", String.valueOf(actualOutput));
+		assertEquals("3.0", String.valueOf(actualOutput));
 
 	}
 
