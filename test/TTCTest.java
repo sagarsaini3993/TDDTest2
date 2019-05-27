@@ -35,5 +35,15 @@ public class TTCTest {
 		assertEquals("3.0", String.valueOf(actualOutput));
 
 	}
+	
+	@Test
+	public void testBetweenZones() {
+		TTC t = new TTC();
+		String[] from = {"DonMills"};
+		String[] to = {"Finch"};
+		double actualOutput = t.calculateTotal(from, to);
+		assertEquals("3.0", String.valueOf(actualOutput));
+
+	}
 
 }
